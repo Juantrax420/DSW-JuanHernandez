@@ -20,11 +20,15 @@
                 border:outset white;
                 height:10%;
                 width: 40%;
-                
-                
-              
             }
-            
+            .menu{
+               border:outset white;
+                padding:0px;
+                margin:0px;
+                background-color: chartreuse;
+                overflow:hidden;
+                float:left;
+            }
             li{
                 padding:0px;
                position:left;
@@ -39,7 +43,7 @@
                 border:outset white;
                 padding:0px;
                 margin:0px;
-                background-color: deepskyblue;
+                background-color: chartreuse;
                 overflow:hidden;
                 float:left;
             }
@@ -59,24 +63,21 @@
                 margin: 5px;
                 width: 600px;
                 float:left;
-                display:flex;
+                display:block;
             }
             .fb-page{
                 float:bottom;
                 display: block;
                 border:outset black;
             }
-            .prop{
-                float:right;
-            }
            
         </style>
     </head>
     
     <body>
-         
+        
         <header id="titulo">
-            <h1>TITULO DEL SITIO</h1>
+            <h1>RECURSO 1</h1>
         </header>
         <div id="cuerpo">
         <div id="menu">
@@ -106,22 +107,20 @@
         </div>
        
         </div>
-         <article id="intro">
-            <p class="parrafo">
-              <p class="prop">  
-             PROPOSITO:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-              </p>
-               <br/>
-             INFORMACION GENERAL DEL SITIO: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-             <br/>
-               INTRODUCCINO A LAS TEMATICAS: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
-               xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        <br>
+        <div id="cuerpo">
+            <div class="menu">
+             <h3>VIDEO 1</h3>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/0IvTycRXuNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <article>
+                <h3> RESUMEN DEL VIDEO </h3>
+                <p>
+                   xxxxxxxxxxxxxxxxxxxxxxxx 
                 </p>
-        </article>
+            </article>        
+            </div>
+             
+        </div>
          <footer id="Autor">
              <h3>AUTOR</h3>
             <p class="parrafo">
@@ -144,5 +143,5 @@
               <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v12.0" nonce="OqfDrneJ"></script>              
         
     </body>
-   
+    
 </html>
