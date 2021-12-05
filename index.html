@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fase 3 - Diseño Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .titulo {
+            border: outset black;
+        }
+
+        #menu {
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            position: left;
+            Dsiplay: block;
+            background-color: rgb(140, 141, 133);
+            color: white;
+            border: outset white;
+            height: 10%;
+            width: 40%;
+
+
+
+        }
+
+        li {
+            padding: 0px;
+            position: left;
+            display: block;
+
+        }
+
+        h3 {
+            float: top;
+
+        }
+
+        #intro {
+            border: outset white;
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(140, 141, 133);
+            overflow: hidden;
+            float: left;
+        }
+
+        #Autor {
+            border: outset white;
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(53, 50, 50);
+            color: white;
+            overflow: hidden;
+            float: right;
+        }
+
+        .parrafo {
+            padding: 8px;
+        }
+
+        #cuerpo {
+            margin: 5px;
+            width: 600px;
+            float: left;
+            display: flex;
+        }
+
+        .fb-page {
+            float: bottom;
+            display: block;
+            border: outset black;
+        }
+
+        .prop {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="titulo">
+        <style>
+            h1 {
+                background-color: grey;
+                text-align: center;
+            }
+        </style>
+        <h1>Etiquetas semánticas, CSS Grid</h1>
+
+        <hr>
+    </header>
+    <div id="cuerpo">
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li>
+                <li>TEMAS
+                    <ul>
+                        <li><a href="Tema 1.html">Etiquetas semanticas</a></li>
+                        <li><a href="Tema 2.html">CSS Grid</a></li>
+                    </ul>
+                </li>
+                <li>RECURSOS DIGITALES
+                    <ul>
+                        <li><a href="Recurso 1.html">Recurso 1</a></li>
+                        <li><a href="Recurso 2.html">Recurso 2</a></li>
+                    </ul>
+                </li>
+                <li>APRENDIZAJE
+                    <ul>
+                        <li><a href="Evaluacion1.html">Evalucaion 1</a> </li>
+                        <li><a href="Evaluacion2.html">Evalucaion 2</a> </li>
+                    </ul>
+                </li>
+                <li><a href="#Autor">AUTOR</a></li>
+            </ul>
+        </div>
+        <hr>
+    </div>
+    <article id="intro">
+        <p class="parrafo">
+        <p class="prop">
+        <h4>PROPOSITO</h4>
+        <br>El propósito de la creación de este sitio es dar una explicación más amplia y descriptiva Etiquetas
+        semánticas, CSS Grid todo esto para facilitar a los nuevos diseñadores el poder distribuir información a lo
+        largo y ancho de la página que estén construyendo ya que anteriormente llevaba mas trabajo realizar esta
+        distribución.
+        De esta manera revisaremos cada etiqueta detalladamente con su aplicación dentro el diseño de la cualquier
+        página, así miso revisaremos el encasillamiento de información con los tipos de CSS Grid y su aplicación.<br />
+        </p>
+        <br />
+        <hr>
+        <h4>INFORMACION GENERAL DEL SITIO</h4>
+        <br>En este sitio daremos un repaso a algunas de las nuevas etiquetas que nos trae esta revisión del lenguaje.
+        En particular, en este artículo, nos centraremos en las que han aparecido para añadir valor semántico y
+        estructural a la web.
+        Algunas de las más importantes etiquetas introducidas en HTML5 son las que añaden valor semántico y estructural,
+        es decir, indican de forma inequívoca las distintas partes de las que consta un página: cabecera, pie,
+        navegación.
+        <br />
+        <br>Así mismo indicaremos que el CSS Grid contiene funciones de diseño dirigidas a los desarrolladores de
+        aplicaciones web. El CSS Grid se puede utilizar para lograr muchos diseños diferentes. También se destaca por
+        permitir dividir una página en áreas o regiones principales, por definir la relación en términos de tamaño,
+        posición y capas entre partes de un control construido a partir de primitivas HTML.<br />
+        <hr>
+        <h4>INTRODUCCIÓN A LAS TEMATICAS</h4>
+        <br>HTML Semántico es el uso de las etiquetas HTML para reforzar la semántica, o el significado, de la
+        información en las páginas web más que simplemente redefinir su forma de presentación (apariencia). El HTML
+        semántico es procesado por los navegadores web regulares así como por muchos otros agentes de usuarios. Las CSS
+        son usadas para sugerir la presentación de la página a usuarios humanos.<br />
+        <br>Una vez que se realizó el lanzamiento de CSS Grid se han generado muchas preguntas si este nuevo sistema de
+        layouts reemplaza Flexbox. Hay varios puntos de vista, no lo hace del todo. Con CSS Grid puedes hacer cosas que
+        con Flexbox no y viceversa. Lo ideal sería usarlos en conjunto. Puedes tener un contenedor con propiedad de grid
+        y que sus hijos tengan propiedad flex y a la inversa también. Por ejemplo, si únicamente necesitas que un
+        contenedor esté al lado de otro, por simplicidad se usaría flexbox en lugar de grid. Por otro lado, si el layout
+        está compuesto por filas y columnas que van cambiando en sus versiones responsive entonces CSS Grid facilitará
+        el trabajo.<br />
+        </p>
+    </article>
+    <footer id="Autor">
+        <h3>AUTOR</h3>
+        <hr>
+        <p class="parrafo">
+            Juan Sebastian Hernandez Pulido<br />
+            id - 1022365367<br />
+            Programa: Ingenieria de Sistemas<br />
+            Proyecto de sitio Web 2021 -16-04<br />
+            jshernandezp@unadvirtual.edu.co<br />
+        </p>
+    </footer>
+    <footer class="fb-page" data-href="https://es-la.facebook.com/UniversidadUNAD" data-tabs="timeline" data-width=""
+        data-height="" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false"
+        data-show-facepile="true">
+        <blockquote cite="https://es-la.facebook.com/UniversidadUNAD" class="fb-xfbml-parse-ignore"><a
+                href="https://es-la.facebook.com/UniversidadUNAD">Meta</a></blockquote>
+    </footer>
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v12.0"
+        nonce="OqfDrneJ"></script>
+
+</body>
+
+</html>
